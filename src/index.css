@@ -1,0 +1,46 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0a0a0a;
+    color: #e5e7eb;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-gradient {
+    background: radial-gradient(ellipse at top, rgba(79, 70, 229, 0.3), transparent 60%), radial-gradient(ellipse at bottom, rgba(192, 38, 211, 0.3), transparent 70%);
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #4F46E5 0%, #C026D3 100%);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px 0 rgba(79, 70, 229, 0.5), 0 4px 15px 0 rgba(192, 38, 211, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px 0 rgba(79, 70, 229, 0.6), 0 6px 20px 0 rgba(192, 38, 211, 0.5);
+}
+
+.card-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    background: -webkit-linear-gradient(45deg, #4F46E5, #C026D3, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
