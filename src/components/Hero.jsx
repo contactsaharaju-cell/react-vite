@@ -9,7 +9,7 @@ const Hero = () => (
         <span className="section-title">Experience Premier Gaming</span><br />Like Never Before.
       </h1>
       <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
-        Join thousands of players in a world of endless entertainment, massive rewards, and non-stop excitement. Your winning journey starts now. (Designed by Raju Saha) v2.0.0
+        Join thousands of players in a world of endless entertainment, massive rewards, and non-stop excitement. Your winning journey starts now. (Designed by Raju Saha) v21.0.0
       </p>
       <div className="mt-10">
         <button className="px-10 py-4 rounded-full btn-primary text-white font-bold text-lg">
